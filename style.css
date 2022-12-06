@@ -1,0 +1,77 @@
+.heroimage{
+   background:url("https://beaconny.gov/wp-content/uploads/2022/05/Fire_Hydrant_Flushing_Depositphotos.jpg");
+   height: 100%;
+   padding: 250px;
+   background-repeat:no-repeat;
+    background-size:cover;
+ 
+}
+.herocontent{
+   text-align:center;
+   text-decoration: solid;
+   color:rgb(114, 169, 190);
+   
+}
+   
+.card{
+  border-color: red;
+  border-radius: 0px;
+  border-width: 5px;
+  border-bottom-left-radius: 100px;
+  border-bottom: 90px;
+  border-top: 90px;
+  padding-top: 5px;
+}
+.card-img-top{
+   width: 100%;
+   height: 30vw;
+   object-fit: cover;
+}
+a{
+   color:black;
+   font-weight: 900;
+
+}
+
+button{
+   color: rgb(255, 2, 2);
+   background-color: black;
+   border-color: maroon;
+   border-radius: 10px;
+}
+
+h1{
+   text-align: center;
+}
+.hero{
+   background-color: black;
+}
+
+footer {
+   margin-top: 10px;
+   padding-top: 10px;
+   margin-right: -150px;
+   margin-left: -150px;
+   height: 60px;  
+   text-align: center; 
+   background-color: maroon;         
+}
+
+@media  screen and(max-width: 767px)  {
+   
+   
+   .heroimage{
+      background-size: contain;
+  
+   }
+   .card{
+      display: inline-block;
+      height: 150px;
+   }
+   .herocontent h1{
+  text-align: center;
+   }
+   .herocontent h2{
+      text-align: left;
+   }
+}  
