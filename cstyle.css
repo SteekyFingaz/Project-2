@@ -1,0 +1,22 @@
+footer {
+    margin-top: 400px;
+    padding-top: 10px;
+    /* margin-right: -150px;
+    margin-left: -150px; */
+    height: 70px;  
+    text-align: center; 
+    background-color: maroon;         
+    }
+
+    button{
+        color: rgb(255, 2, 2);
+   background-color: black;
+   border-color: maroon;
+   border-radius: 10px;
+    }
+
+    @media  screen and(max-width: 767px){
+        .footer{
+            margin-right: -10px;
+        }
+    }
